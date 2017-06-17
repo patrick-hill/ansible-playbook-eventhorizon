@@ -8,13 +8,13 @@
     vnc_password: welcome1 # Defaults to 'welcome1', encrypt true value
   
   vars_files:
-    - vars/eventhorizon/common.yml
-    - vars/eventhorizon/nfs-mounts.yml
-    - vars/eventhorizon/dropbox.yml
-    - vars/eventhorizon/autokey.yml
-    - vars/eventhorizon/ssh-server.yml
-    - vars/eventhorizon/gitkraken.yml
-    - vars/eventhorizon/remmina.yml
+    - vars/common.yml
+    - vars/nfs-mounts.yml
+    - vars/dropbox.yml
+    - vars/autokey.yml
+    - vars/ssh-server.yml
+    - vars/gitkraken.yml
+    - vars/remmina.yml
 
   pre_tasks:
     - shell: echo 'Starting...'
