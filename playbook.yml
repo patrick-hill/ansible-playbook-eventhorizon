@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: eventhorizon
   gather_facts: yes
   become: true
   vars:
